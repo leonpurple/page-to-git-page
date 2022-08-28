@@ -7,15 +7,15 @@
 
 1. Crear ``index.html`` en el IDE
 
-2. Luego abrir un nuevo terminal
+2. Luego abrir un nuevo terminal ( ctrl+ñ )
 
-3. Usar comando: ``node --version``   
+3. Utilizar comando: ``node --version``   
 
-4. Usar comando: ``npm init -y ``  "para crear en **package.json**"
+4. Utilizar comando: ``npm init -y ``  "para crear en **package.json**"
 
-5. "Copiar y pegar el módulo de "gh-pages-npm" ``npm i gh-pages``  
+5. "Copiar y pegar el módulo ``npm i gh-pages``  [npmjs.com](https://www.npmjs.com/package/gh-pages)
 
-6. Crear el archivo ``.gitignore`` en el IDE y en él colocar el ``node_module`` recien creado
+6. Crea el archivo ``.gitignore`` en el IDE y en él coloca el ``node_module`` recien creado
 
 7. Luego  ``git init``   **inicializo repo**
 ```
@@ -24,12 +24,12 @@ git add .
 git commit -m "expresion..."
 ```
 
-8. Crear nuevo repositorio en GitHub lo "llamo como quiero"
+8. Crea nuevo repositorio en GitHub lo "llamo como quiero"
 **mirar el branch en el que estoy** desde el editor o con comando ``git branch``
 
 9. Copiar y pegar el comando del repositorio recien creado ej: git remote add origin https://github.com/leonpurple/coinbasecopy.git
 
-10. Luego :  git push -u origin main o master segun en que rama este.
+10. Luego : `` git push -u origin main`` o ``master`` segun en que rama este.
 *hasta aqui subio el codigo al repositorio pero no aun al git page *
 
 11. Ahora ejecuto el comando: ``npx gh-pages -d .`` en 
