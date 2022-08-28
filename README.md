@@ -43,6 +43,14 @@ y luego **pages**
 
 *puede tardar unos minutos en mostrar los cambios* 
 
+## Para actualizar 
+
+simplemente utilizo el comando 
+
+ ``npx gh-pages -d .`` 
+
+
+
 ---
 ## Plantillas estáticas para blogs recomendados :
 
